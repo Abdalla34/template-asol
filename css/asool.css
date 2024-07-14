@@ -1,0 +1,541 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: rgba(23, 70, 157, 1);
+  --second-color: rgba(185, 149, 90, 1);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.none-dec {
+  text-decoration: none;
+}
+
+body {
+  direction: ltr;
+  font-family: "Changa One", sans-serif;
+}
+
+.section-parent {
+  background-image: url(/image/Group\ 93.png);
+  background-size: cover;
+  margin-bottom: 68px;
+}
+
+/* start  navbar */
+.fa-whatsapp {
+  background-color: rgba(228, 241, 241, 1);
+  border-radius: 50%;
+  color: rgba(18, 140, 126, 1);
+}
+
+.icons .fa-list {
+  background-color: rgba(23, 70, 157, 0.1);
+  border-radius: 50%;
+  color: var(--main-color);
+}
+
+.fa-phone-volume {
+  color: var(--second-color);
+}
+
+.navbar-nav {
+  font-weight: bold;
+}
+
+.nav-item {
+  font-size: 16px;
+}
+
+.navbar-nav .nav-item .spicial-li {
+  font-weight: 600;
+  color: rgba(185, 149, 90, 1);
+}
+
+.navbar-nav .nav-item:hover a {
+  color: rgba(185, 149, 90, 1);
+}
+
+/* end navbar */
+/* start slider */
+.hand {
+  flex: 1;
+  text-align: end;
+}
+
+.title-section {
+  color: var(--second-color);
+}
+
+.text-spicial {
+  color: var(--main-color)
+}
+
+.button-link {
+  background-color: var(--main-color);
+  color: white;
+  padding: 8px 13px;
+  font-weight: bold;
+  /* border-top-left-radius: 40px; */
+  margin-top: 10px;
+  border: none;
+  position: absolute;
+  right: 20px;
+  border-radius: 20px;
+}
+
+.button-link svg {
+  background-color: var(--second-color);
+  /* padding: 10px 5px 10px 10px; */
+  padding: 10px;
+  border-radius: 50%;
+}
+
+/* end slider */
+/* start  about us */
+.parent-about {
+  margin-bottom: 113px;
+}
+
+.first-box {
+  background-color: red;
+  text-align: end;
+  color: white;
+}
+
+.first-box h1 {
+  font-size: 18px;
+}
+
+.first-box p {
+  font-size: 15px;
+  line-height: 1.;
+}
+
+.first-box {
+  background-color: rgba(23, 70, 157, 0.1);
+  color: var(--main-color);
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 20px;
+}
+
+.box-spicial {
+  color: var(--second-color);
+  background-color: white;
+}
+
+.box-text {
+  text-align: end;
+  line-height: 2;
+}
+
+.span-box {
+  color: var(--second-color);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.titl-box {
+  color: var(--main-color);
+  text-align: end;
+}
+
+.parg-color {
+  color: rgba(69, 69, 69, 1);
+  font-weight: bold;
+}
+
+/* end  about us */
+/* start services */
+.services-parent {
+  margin-bottom: 132px;
+}
+
+.span-services {
+  color: var(--second-color);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.text-servecis-parent {
+  color: var(--main-color);
+  font-weight: bold;
+}
+
+.box-serv {
+  border-radius: 30px;
+}
+
+.box-serv h1 {
+  color: var(--second-color);
+  margin-top: 15px;
+  margin-bottom: 12px;
+}
+
+.box-serv p {
+  color: rgba(69, 69, 69, 1);
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.two-serv {
+  background: linear-gradient(180deg, #DEE8FF 0%, #F7F9FC 100%);
+}
+
+.four-serv {
+  background: linear-gradient(180deg, rgba(222, 232, 255, 0.5) 0%, rgba(247, 249, 252, 0.5) 100%);
+}
+
+.btn-more {
+  color: var(--second-color);
+  border: none;
+  font-weight: bold;
+  padding: 5px 15px;
+  border-radius: 10px;
+}
+
+.btn-salary {
+  color: var(--main-color);
+  border: none;
+  font-weight: bold;
+  padding: 5px 15px;
+  border-radius: 10px;
+}
+
+/* end services */
+/* start why us */
+.why-us {
+  margin-bottom: 100px;
+}
+
+.icon-us {
+  color: var(--second-color);
+  font-size: 20px;
+  position: relative;
+  top: -24px;
+}
+
+.title-text-us {
+  padding-bottom: 15px;
+  color: var(--main-color);
+}
+
+.pargraph-spicial {
+  font-weight: bold
+}
+
+.span-us {
+  color: var(--second-color);
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.test-mar {
+  margin: auto;
+}
+
+.parent-why-us {
+  background-color: var(--main-color);
+  border-radius: 100px;
+  height: 100px;
+  padding: 0px 20px;
+}
+
+.us-icon {
+  font-size: 20px;
+  position: relative;
+  top: -10px;
+}
+
+.us-icon .fa-phone-volume {
+  background-color: var(--second-color);
+  color: white;
+  padding: 7px;
+  border-radius: 50%;
+}
+
+.us-icon .fa-whatsapp {
+  background-color: rgba(18, 140, 126, 1);
+  color: white;
+}
+
+.title-us h1 {
+  font-size: 20px;
+  color: white;
+}
+
+.title-us p {
+  color: rgba(255, 255, 255, 0.6);
+  ;
+}
+
+.image-us {
+  position: relative;
+  margin-top: -85px;
+}
+
+/* end why us */
+/* start works */
+.worksup {
+  margin-bottom: 120px;
+}
+
+.text-title-work {
+  color: var(--main-color);
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.span-work {
+  color: var(--second-color);
+  font-weight: bold;
+}
+
+.parg-works {
+  color: rgba(69, 69, 69, 1);
+  line-height: 2;
+  font-weight: bold;
+}
+
+.icon-work {
+  bottom: -20px;
+}
+
+.image-work {
+  top: -20px;
+}
+
+/* end works */
+/* strat cta */
+.title-cta {
+  color: var(--main-color);
+}
+
+.parent-icon .fa-whatsapp {
+  background-color: rgba(18, 140, 126, 1);
+  color: white;
+}
+
+.parent-icon .fa-phone-volume {
+  background-color: var(--second-color);
+  color: white;
+  border-radius: 50%;
+}
+
+.btn-cta {
+  background-color: var(--main-color);
+  color: white;
+  border-radius: 40px;
+  padding: 7px 10px;
+  border: none;
+}
+
+.btn-cta .fa-arrow-left {
+  background-color: var(--second-color);
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.text-cta {
+  color: var(--main-color);
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* end cta */
+/* strat footer  */
+.footer-up {
+  background-image: url(/image/Group\ 93.png);
+  background-size: cover;
+}
+
+.title-footer-box {
+  color: var(--main-color);
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.location h3 {
+  font-size: 20px;
+}
+
+.details-location {
+  width: max-content;
+  margin-left: auto;
+}
+
+.text-align {
+  text-align: end;
+}
+
+.icontitle .fa-location-dot {
+  color: var(--second-color);
+  font-size: 18px;
+}
+
+.font-weight {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.image-footer {
+  margin-bottom: 20px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 20px;
+}
+
+.contact h4 {
+  font-size: 20px;
+}
+
+.color-icon {
+  color: var(--second-color);
+}
+
+.parg-foot {
+  width: max-content;
+}
+
+.footer-up .fa-facebook,
+.fa-instagram,
+.fa-envelope,
+.spicial-whatsapp{
+  font-size: 20px;
+}
+.spicial-whatsapp{
+  color: rgb(33, 37, 41);
+}
+
+/* end footer  */
+
+/* start media qeiry */
+@media (max-width: 576px) {
+  .ulLinks {
+    background-color: rgba(23, 70, 157, 1);
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 85px;
+    padding: 10px;
+    z-index: 5;
+  }
+
+  .ulLinks::before {
+    content: "";
+    position: absolute;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent blue transparent;
+    right: 25px;
+    top: -18px;
+  }
+
+  .ulLinks .nav-item a {
+    color: white;
+  }
+
+  .text-section {
+    color: red;
+  }
+
+  .hand {
+    text-align: center;
+  }
+
+  .button-link {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 12px;
+  }
+
+  .box-text {
+    text-align: center;
+  }
+
+  .titl-box {
+    text-align: center;
+  }
+
+  .text-box {
+    text-align: center;
+  }
+
+  .text-box h1 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+
+  .parent-why-us {
+    height: 65px;
+  }
+
+  .title-us h1 {
+    font-size: 15px;
+    position: relative;
+    right: -30px;
+  }
+
+  .title-us p {
+    position: relative;
+    right: -30px;
+  }
+
+  .us-icon {
+    position: relative;
+    left: -30px;
+    top: -10px;
+  }
+
+  .imga-work-style {
+    margin-top: 45px;
+  }
+
+  .text-cta {
+    color: var(--main-color);
+    font-weight: bold;
+    font-size: 20px;
+    width: max-content;
+    position: absolute;
+    margin-top: -100px;
+    right: 10px;
+  }
+
+  .parent-icon {
+    width: max-content;
+  }
+
+  .margin {
+    margin-right: 10px;
+    margin-top: 20px;
+  }
+
+  .contact {
+    display: block;
+    width: max-content;
+    margin-left: auto;
+  }
+}
+
+/* end media qeiry */
