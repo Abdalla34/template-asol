@@ -3,7 +3,7 @@
 }
 
 :root {
-  --main-color: rgba(23, 70, 157, 1);
+  --main-color: rgba(10, 44, 114, 1);
   --second-color: rgba(185, 149, 90, 1);
 }
 
@@ -15,13 +15,16 @@ a {
   text-decoration: none;
 }
 
-.none-dec {
-  text-decoration: none;
-}
 
 body {
   direction: ltr;
-  font-family: "Changa One", sans-serif !important;
+  font-family: "Changa", sans-serif !important;
+}
+
+.spanhand {
+  color: var(--second-color);
+  font-weight: 300;
+  font-size: 26px;
 }
 
 .section-parent {
@@ -53,6 +56,7 @@ body {
 
 .nav-item {
   font-size: 16px;
+  font-weight: 600;
 }
 
 .navbar-nav .nav-item .spicial-li {
@@ -65,6 +69,7 @@ body {
 }
 
 /* end navbar */
+
 /* start slider */
 .hand {
   flex: 1;
@@ -100,6 +105,7 @@ body {
 }
 
 /* end slider */
+
 /* start  about us */
 .parent-about {
   margin-bottom: 113px;
@@ -138,32 +144,35 @@ body {
   line-height: 2;
 }
 
-.span-box {
-  color: var(--second-color);
-  font-size: 20px;
-  font-weight: bold;
-}
 
 .titl-box {
   color: var(--main-color);
   text-align: end;
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.text-box h1 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.text-box p {
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .parg-color {
   color: rgba(69, 69, 69, 1);
-  font-weight: bold;
+  font-weight: 300;
+  font-size: 18px;
 }
 
 /* end  about us */
+
 /* start services */
 .services-parent {
   margin-bottom: 132px;
-}
-
-.span-services {
-  color: var(--second-color);
-  font-weight: bold;
-  font-size: 20px;
 }
 
 .text-servecis-parent {
@@ -182,9 +191,9 @@ body {
 }
 
 .box-serv p {
-  color: rgba(69, 69, 69, 1);
-  font-weight: bold;
-  padding-top: 5px;
+  font-size: 14px;
+  font-weight: 300;
+  color: rgba(9, 29, 71, 1)
 }
 
 .two-serv {
@@ -198,7 +207,8 @@ body {
 .btn-more {
   color: var(--second-color);
   border: none;
-  font-weight: bold;
+  font-weight: 500;
+  font-size: 16px;
   padding: 5px 15px;
   border-radius: 10px;
 }
@@ -206,15 +216,28 @@ body {
 .btn-salary {
   color: var(--main-color);
   border: none;
-  font-weight: bold;
+  font-weight: 500;
+  font-size: 16px;
   padding: 5px 15px;
   border-radius: 10px;
 }
 
 /* end services */
+
 /* start why us */
 .why-us {
   margin-bottom: 100px;
+}
+
+.grid-us {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  text-align: end;
+}
+
+.hand-col-spicial {
+  max-width: 784px;
 }
 
 .icon-us {
@@ -227,10 +250,26 @@ body {
 .title-text-us {
   padding-bottom: 15px;
   color: var(--main-color);
+  font-size: 36px;
+  font-weight: 600;
 }
 
 .pargraph-spicial {
-  font-weight: bold
+  color: rgba(69, 69, 69, 1);
+  font-size: 18px;
+  display: flex;
+  gap: 10px;
+  justify-content: end;
+}
+
+.pargraph-spicial svg {
+  color: var(--second-color);
+}
+
+.title-grid-us h1 {
+  color: var(--main-color);
+  font-size: 36px;
+  font-weight: 600;
 }
 
 .span-us {
@@ -243,6 +282,7 @@ body {
 
 .test-mar {
   margin: auto;
+  padding: 40px;
 }
 
 .parent-why-us {
@@ -255,7 +295,6 @@ body {
 .us-icon {
   font-size: 20px;
   position: relative;
-  top: -10px;
 }
 
 .us-icon .fa-phone-volume {
@@ -277,7 +316,7 @@ body {
 
 .title-us p {
   color: rgba(255, 255, 255, 0.6);
-  ;
+  margin: 0;
 }
 
 .image-us {
@@ -285,7 +324,18 @@ body {
   margin-top: -85px;
 }
 
+.box-grid-us {
+  max-width: 455px;
+  height: 419px;
+}
+
+.box-grid-us img {
+  max-width: 100%;
+  height: 100%;
+}
+
 /* end why us */
+
 /* start works */
 .worksup {
   margin-bottom: 120px;
@@ -297,27 +347,56 @@ body {
   margin-bottom: 20px;
 }
 
-.span-work {
-  color: var(--second-color);
-  font-weight: bold;
-}
-
 .parg-works {
   color: rgba(69, 69, 69, 1);
   line-height: 2;
-  font-weight: bold;
+  font-weight: 300;
+  font-size: 18px;
 }
 
 .icon-work {
   bottom: -20px;
 }
 
-.image-work {
-  top: -20px;
+.hand-icon-work {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+
+}
+
+.hand-icon-work .bg-whatsap {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hand-icon-work .bg-phone {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(248, 244, 239, 1);
+  ;
+}
+
+.image-work img {
+  max-width: 100%;
 }
 
 /* end works */
+
 /* strat cta */
+/* .cta-setction .img img{
+  max-width: 100%;
+} */
 .title-cta {
   color: var(--main-color);
 }
@@ -355,6 +434,7 @@ body {
 }
 
 /* end cta */
+
 /* strat footer  */
 .footer-up {
   background-image: url(/image/Group\ 93.png);
@@ -363,32 +443,18 @@ body {
 
 .title-footer-box {
   color: var(--main-color);
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 18px;
+  font-weight: 500;
   margin-bottom: 16px;
-}
-
-.location h3 {
-  font-size: 20px;
-}
-
-.details-location {
-  width: max-content;
-  margin-left: auto;
 }
 
 .text-align {
   text-align: end;
 }
 
-.icontitle .fa-location-dot {
-  color: var(--second-color);
-  font-size: 18px;
-}
-
 .font-weight {
-  font-weight: bold;
-  font-size: 18px;
+  font-weight: 400;
+  font-size: 16px;
   line-height: 1.7;
 }
 
@@ -396,38 +462,162 @@ body {
   margin-bottom: 20px;
 }
 
-.contact {
+.icons-footer .fa-whatsapp {
+  background-color: white;
+  color: rgba(102, 102, 102, 1);
+}
+
+.location h1 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.location {
+  font-size: 14px;
+  font-weight: 300;
+  color: rgba(95, 95, 95, 1);
+}
+
+.bg-location {
+  background-color: rgba(248, 244, 239, 1);
+  color: var(--second-color);
   display: flex;
   align-items: center;
-  justify-content: end;
-  gap: 20px;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
 }
 
-.contact h4 {
-  font-size: 20px;
+.hand-num-parg {
+  font-size: 14px;
 }
 
-.color-icon {
+.connection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+
+.icon-connect {
+  background-color: rgba(248, 244, 239, 1);
+  ;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: var(--second-color);
+  border-radius: 50%;
 }
 
-.parg-foot {
-  width: max-content;
+.envolpe-connect {
+  background-color: rgba(248, 244, 239, 1);
+  ;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--second-color);
+  border-radius: 50%;
 }
 
-.footer-up .fa-facebook,
-.fa-instagram,
-.fa-envelope,
-.spicial-whatsapp{
-  font-size: 20px;
+.title-end h4 {
+  margin: 0;
 }
-.spicial-whatsapp{
-  color: rgb(33, 37, 41);
+
+.end-footer {
+  font-size: 14px;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.6);
 }
 
 /* end footer  */
 
-/* start media qeiry */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start media 992 */
+@media (max-width:992px) {
+  .parent-why-us {
+    width: 600px;
+  }
+
+  .hand-col-spicial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mini-title-us {
+    width: max-content;
+  }
+
+  .connection {
+    display: block;
+  }
+}
+
+/* end 992 */
+
+/* start 786 */
+@media (max-width:768px) {
+  .imga-work-style {
+    margin-top: 88px;
+  }
+
+  .btn-cta {
+    width: 160px;
+  }
+
+  .text-cta {
+    font-size: 18px;
+  }
+
+  .parent-why-us {
+    width: fit-content;
+    margin: auto;
+  }
+
+  .grid-us {
+    display: block;
+  }
+
+  .connection {
+    display: block;
+  }
+}
+
+/* end 786 */
+
+/* start small */
 @media (max-width: 576px) {
   .ulLinks {
     background-color: rgba(23, 70, 157, 1);
@@ -482,34 +672,30 @@ body {
 
   .text-box h1 {
     text-align: center;
-    font-size: 22px;
     margin-bottom: 20px;
-    font-weight: bold;
   }
 
   .parent-why-us {
     height: 65px;
+    width: 323px;
   }
 
   .title-us h1 {
     font-size: 15px;
     position: relative;
-    right: -30px;
   }
 
   .title-us p {
     position: relative;
-    right: -30px;
+    margin: 0;
   }
 
   .us-icon {
     position: relative;
-    left: -30px;
-    top: -10px;
   }
 
   .imga-work-style {
-    margin-top: 45px;
+    margin-top: 80px;
   }
 
   .text-cta {
@@ -531,10 +717,12 @@ body {
     margin-top: 20px;
   }
 
-  .contact {
+  .grid-us {
+    display: inline-block;
+  }
+
+  .connection {
     display: block;
-    width: max-content;
-    margin-left: auto;
   }
 }
 
