@@ -688,6 +688,7 @@ body {
   .title-us p {
     position: relative;
     margin: 0;
+    font-size: 10px;
   }
 
   .us-icon {
